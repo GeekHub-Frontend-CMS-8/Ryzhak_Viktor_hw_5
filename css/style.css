@@ -1,0 +1,286 @@
+body {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+}
+
+input:hower {
+    color: #ffffff;
+}
+
+}
+.wrapper {
+    max-width: 1170px;
+    padding: 0 15px;
+    overflow: hidden;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+.content-center {
+    text-align: center;
+}
+
+.arrow {
+    margin: 0 auto;
+}
+
+.flex-centered {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.flex-between {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.button {
+    border-radius: 2px;
+    border: 1px solid #15a4fa;
+    background: none;
+}
+
+.button:hover {
+    background-color: #15a4fa;
+    cursor: pointer;
+}
+.button__text {
+    color: #ffffff;
+    font-size: 18px;
+}
+
+.top__background {
+    background-color: #f6f9f9;
+}
+
+.representation__background {
+    background-image: url(../img/background1.jpg);
+    background-position: top center;
+    background-size: cover;
+}
+
+.representation__padding {
+    padding: 210px 0 91px 0;
+}
+
+.arrow {
+    background-image: url(../img/arrow.png);
+    width: 20px;
+    height: 12px;
+}
+
+
+.representation__title {
+    width: 600px;
+    margin: 0 auto 40px;
+    padding-bottom: 34px;
+    border-bottom: 2px solid #15a4fa;
+    letter-spacing: 3px;
+    line-height: 70%;
+    font-size: 120px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+
+.representation__text {
+    color: #ffffff;
+    font-size: 20px;
+}
+
+.representation__button{
+    padding: 20px 34px;
+    margin: 65px 0 179px 0 ;
+}
+
+.info__background {
+    background-color: #f6f9f9;
+}
+
+.info__block {
+    padding: 81px 0 110px 0;
+}
+
+.info__title,
+.work__title,
+.contact-us__title, {
+    color: #2d3950;
+    font-size: 40px;
+    letter-spacing: 1px;
+}
+
+.info__title,
+.work__title,
+.contact-us__title {
+    color: #2d3950;
+    font-size: 40px;
+    letter-spacing: 1px;
+}
+
+.info__title,
+.work__title {
+    color: #2d3950;
+}
+
+.info__text {
+    padding-top: 31px;
+    width: 1101px;
+    color: #999999;
+    font-size: 20px;
+    line-height: 32px;
+}
+
+.vista__background {
+    background-color: #ffffff;
+}
+
+.vista__block {
+    display: flex;
+    justify-content: center;
+}
+
+.vista__item {
+    margin: 65px;
+}
+
+.vista__icon {
+    text-shadow: 1px 1px 1px rgba(2, 2, 2, 0.4);
+    color: #ffffff;
+    font-size: 40px;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+
+.vista__icon-background {
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+    border-radius: 2px;
+    background: repeating-linear-gradient(90deg, #48baff 50%, #5fc3ff 100%);
+}
+
+.fa-telegram-plane {
+    padding: 25px 29px 35px 30px;
+}
+
+.fa-bullhorn {
+    padding: 32px 29px;
+}
+
+.vista__title {
+    padding: 32px 0 22px 0;
+    color: #2d3950;
+    font-size: 22px;
+}
+
+.vista__text {
+    width: 300px;
+    font-size: 15px;
+    color: #999999;
+}
+
+.work__background {
+    background-color: #f6f9f9;
+}
+
+.work__block{
+    padding: 81px 0 116px 0;
+}
+
+.work__text,
+.contact-us__text,
+.footer__text {
+    color: #999999;
+    font-size: 15px;
+}
+
+.contact-us__title {
+    color: #ffffff;
+}
+
+.contact-us__text {
+    display: block;
+    padding-top: 22px;
+    padding-bottom: 52px;
+}
+
+.contact-us__background {
+    background: linear-gradient(
+            rgba(45, 57, 80, 0.9),
+            rgba(45, 57, 80, 0.9)
+    ), url(../img/background2.jpg)  top center no-repeat;
+    background-size: cover;
+}
+
+.contact-us__block {
+    padding: 74px 0 111px 0;
+}
+
+.contact-us__label {
+    margin-bottom: 22px;
+}
+
+
+
+.contact-us__input-name,
+.contact-us__input-email,
+.contact-us__input-massage {
+    width: 100%;
+    padding-top: 25px;
+    padding-left: 20px;
+    border-radius: 2px;
+    border: 1px solid #999999;
+    font-size: 15px;
+    background: none;
+}
+
+.contact-us__input-name,
+.contact-us__input-email {
+    padding-bottom: 25px;
+}
+
+.contact-us__input-massage {
+    padding-bottom: 121px;
+
+}
+
+.contact-us__form-container {
+    width: 553px;
+    margin: 0 auto;
+    box-sizing: border-box;
+
+}
+
+.contact-us__form-checkbox-box {
+    width: 15px;
+    height: 15px;
+    border-radius: 2px;
+    border: 1px solid #9aa1ab;
+    background-color: #f6f9f9;
+}
+
+
+.contact-us__form-checkbox-text {
+    color: #ffffff;
+    font-size: 15px;
+}
+
+
+
+.contact-us__form-button {
+    padding: 16px 50px;
+    color: #ffffff;
+    font-size: 18px;
+}
+
+.footer__background {
+    background-color: #f6f9f9;
+}
+
+.footer__block{
+    padding: 25px 0;
+}
+
