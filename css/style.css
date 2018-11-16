@@ -3,11 +3,10 @@ body {
     font-weight: 400;
 }
 
-input:hower {
+input:hover {
     color: #ffffff;
 }
 
-}
 .wrapper {
     max-width: 1170px;
     padding: 0 15px;
@@ -34,7 +33,6 @@ input:hower {
     display: flex;
     justify-content: space-between;
     align-items: center;
-
 }
 
 .button {
@@ -47,6 +45,7 @@ input:hower {
     background-color: #15a4fa;
     cursor: pointer;
 }
+
 .button__text {
     color: #ffffff;
     font-size: 18px;
@@ -54,6 +53,14 @@ input:hower {
 
 .top__background {
     background-color: #f6f9f9;
+
+}
+
+.top__logo {
+    padding: 32px 0 31px 42px;
+    margin: 0 auto;
+
+
 }
 
 .representation__background {
@@ -106,7 +113,7 @@ input:hower {
 
 .info__title,
 .work__title,
-.contact-us__title, {
+.contact-us__title {
     color: #2d3950;
     font-size: 40px;
     letter-spacing: 1px;
