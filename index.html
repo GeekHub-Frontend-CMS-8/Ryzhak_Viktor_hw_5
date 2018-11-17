@@ -4,9 +4,9 @@
     <meta charset="UTF-8">
     <title>STRICT</title>
     <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/style.css">
     <link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <header>
@@ -24,11 +24,13 @@
             <button class="button representation__button">
                 <span class="button__text">Call to action</span>
             </button>
-            <div class="arrow content-center"></div>
+            <div class="content-center">
+                <a href="#anchor" class="arrow"><i class="fas fa-angle-down"></i></a>
+            </div>
         </div>
     </section>
 
-    <section class="info__background">
+    <section class="info__background" id="anchor">
         <div class="wrapper content-center info__block">
             <h2 class="info__title">Simple & pure design.</h2>
             <p class="info__text">Designers everywhere gush with admiration upon seeing a web design
@@ -69,28 +71,52 @@
         </div>
     </section>
 
-    <section class="work__background">
-        <div class="wrapper content-center work__block">
-            <h2 class="work__title">Showcase your work like a pro.</h2>
-            <span class="work__text">Contact me if you like my work</span>
-            <div class="flex-centered flex-wrap">
-                <div class="work__img">
-                    <img src="img/img-1.jpg"/>
+    <section class="portfolio__background">
+        <div class="wrapper content-center portfolio__block">
+            <h2 class="portfolio__title">Showcase your work like a pro.</h2>
+            <span class="portfolio__text">Contact me if you like my work</span>
+            <div class="flex-between flex-wrap">
+                <div class="portfolio__img-container">
+                    <img class="portfolio__img" src="img/img-1.jpg" alt="img-1"/>
+                    <div class="portfolio__overlay-icon flex-centered">
+                        <a href="#search-plus" class="portfolio__icon flex-centered"><i class="fas fa-search-plus"></i></a>
+                        <a href="#link" class="portfolio__icon flex-centered"><i class="fas fa-link"></i></a>
+                    </div>
                 </div>
-                <div class="work__img">
-                    <img src="img/img-2.jpg"/>
+                <div class="portfolio__img-container">
+                    <img class="portfolio__img" src="img/img-2.jpg" alt="img-2"/>
+                    <div class="portfolio__overlay-icon flex-centered">
+                        <a href="#search-plus" class="portfolio__icon flex-centered"><i class="fas fa-search-plus"></i></a>
+                        <a href="#link" class="portfolio__icon flex-centered"><i class="fas fa-link"></i></a>
+                    </div>
                 </div>
-                <div class="work__img">
-                    <img src="img/img-3.jpg"/>
+                <div class="portfolio__img-container">
+                    <img class="portfolio__img" src="img/img-3.jpg" alt="img-3"/>
+                    <div class="portfolio__overlay-icon flex-centered">
+                        <a href="#search-plus" class="portfolio__icon flex-centered"><i class="fas fa-search-plus"></i></a>
+                        <a href="#link" class="portfolio__icon flex-centered"><i class="fas fa-link"></i></a>
+                    </div>
                 </div>
-                <div class="work__img">
-                    <img src="img/img-4.jpg"/>
+                <div class="portfolio__img-container">
+                    <img class="portfolio__img" src="img/img-4.jpg" alt="img-4"/>
+                    <div class="portfolio__overlay-icon flex-centered">
+                        <a href="#search-plus" class="portfolio__icon flex-centered"><i class="fas fa-search-plus"></i></a>
+                        <a href="#link" class="portfolio__icon flex-centered"><i class="fas fa-link"></i></a>
+                    </div>
                 </div>
-                <div class="work__img">
-                    <img src="img/img-5.jpg"/>
+                <div class="portfolio__img-container">
+                    <img class="portfolio__img" src="img/img-5.jpg" alt="img-5"/>
+                    <div class="portfolio__overlay-icon flex-centered">
+                        <a href="#search-plus" class="portfolio__icon flex-centered"><i class="fas fa-search-plus"></i></a>
+                        <a href="#link" class="portfolio__icon flex-centered"><i class="fas fa-link"></i></a>
+                    </div>
                 </div>
-                <div class="work__img">
-                    <img src="img/img-6.jpg"/>
+                <div class="portfolio__img-container">
+                    <img class="portfolio__img" src="img/img-6.jpg" alt="img-6"/>
+                    <div class="portfolio__overlay-icon flex-centered">
+                        <a href="#search-plus" class="portfolio__icon flex-centered"><i class="fas fa-search-plus"></i></a>
+                        <a href="#link" class="portfolio__icon flex-centered"><i class="fas fa-link"></i></a>
+                    </div>
                 </div>
             </div>
         </div>
@@ -114,7 +140,7 @@
                 </label>
 
                 <div class="flex-between">
-                    <label class="contact-us__form-checkbox-text" for="subscribe-newsletter">
+                    <label class="flex-centered contact-us__form-checkbox-text" for="subscribe-newsletter">
                         <input class="contact-us__form-checkbox-box" type="checkbox" id="subscribe-newsletter" name="weekend">
                         Subscribe Newsletter
                     </label>
@@ -126,12 +152,12 @@
 
     <footer class="footer__background">
         <div class="wrapper footer__block flex-between">
-            <span class="footer__text">Copyritht 2014, STRICT</span>
+            <span class="footer__text">Copyright 2014, STRICT</span>
             <div class="flex">
-                <a class="footer__icon footer__img-fb flex-centered footer__icon-text" href="index.html" title="fb"><i class="fab fa-facebook-f"></i></a>
-                <a class="footer__icon footer__img-tw flex-centered footer__icon-text" href="index.html" title="tw"><i class="fab fa-twitter"></i></a>
-                <a class="footer__icon footer__img-g flex-centered footer__icon-text" href="index.html" title="g"><i class="fab fa-google-plus-g"></i></a>
-                <a class="footer__icon footer__img-in flex-centered footer__icon-text" href="index.html" title="in"><i class="fab fa-linkedin-in"></i></a>
+                <a href="https://www.facebook.com/" target="_blank" class="footer__icon footer__img-fb flex-centered footer__icon-text" title="fb"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://twitter.com/" target="_blank" class="footer__icon footer__img-tw flex-centered footer__icon-text" title="tw"><i class="fab fa-twitter"></i></a>
+                <a href="https://plus.google.com/" target="_blank" class="footer__icon footer__img-g flex-centered footer__icon-text" title="g"><i class="fab fa-google-plus-g"></i></a>
+                <a href="https://www.instagram.com/" target="_blank" class="footer__icon footer__img-in flex-centered footer__icon-text" title="in"><i class="fab fa-linkedin-in"></i></a>
             </div>
         </div>
     </footer>
