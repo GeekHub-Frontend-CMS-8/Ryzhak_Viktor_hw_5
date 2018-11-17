@@ -7,6 +7,10 @@ input:hover {
     color: #ffffff;
 }
 
+a {
+    text-decoration: none;
+}
+
 .wrapper {
     max-width: 1170px;
     padding: 0 15px;
@@ -23,6 +27,10 @@ input:hover {
     margin: 0 auto;
 }
 
+.flex {
+    display: flex;
+}
+
 .flex-centered {
     display: flex;
     align-items: center;
@@ -33,6 +41,10 @@ input:hover {
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.flex-wrap {
+    flex-wrap: wrap;
 }
 
 .button {
@@ -65,7 +77,6 @@ input:hover {
 
 .representation__background {
     background-image: url(../img/background1.jpg);
-    background-position: top center;
     background-size: cover;
 }
 
@@ -193,7 +204,7 @@ input:hover {
     background-color: #f6f9f9;
 }
 
-.work__block{
+.work__block {
     padding: 81px 0 116px 0;
 }
 
@@ -203,6 +214,20 @@ input:hover {
     color: #999999;
     font-size: 15px;
 }
+
+.work__text {
+    display: block;
+    padding: 22px 0 80px 0;
+}
+
+.work__img {
+    padding: 15px;
+}
+
+.work__img:hover {
+
+}
+
 
 .contact-us__title {
     color: #ffffff;
@@ -229,8 +254,6 @@ input:hover {
 .contact-us__label {
     margin-bottom: 22px;
 }
-
-
 
 .contact-us__input-name,
 .contact-us__input-email,
@@ -287,7 +310,51 @@ input:hover {
     background-color: #f6f9f9;
 }
 
-.footer__block{
+.footer__block {
     padding: 25px 0;
+    align-content: center;
 }
 
+.footer__text {
+    display: block;
+}
+
+.footer__icon {
+    width: 40px;
+    height: 40px;
+    color: #ffffff;
+}
+
+.footer__img-fb {
+    border-radius: 2px;
+    background-color: #3b5998;
+}
+
+.footer__img-tw {
+    border-radius: 2px;
+    background-color: #55acee;
+}
+
+.footer__img-g {
+    border-radius: 2px;
+    background-color: #dd4b39;
+}
+
+.footer__img-in {
+    border-radius: 2px;
+    background-color: #0976b4;
+}
+
+.footer__icon-text {
+    margin: 5px;
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.footer__img-fb:hover,
+.footer__img-tw:hover,
+.footer__img-g:hover,
+.footer__img-in:hover {
+    background-color: #15a4fa;
+}
